@@ -1,4 +1,0 @@
-[submodule "reveal.js"]
-	path = reveal.js
-	url = https://github.com/MynherVanKoek/reveal.js.git
-	branch = 3.5.0
