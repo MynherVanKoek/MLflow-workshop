@@ -9,7 +9,7 @@ The command to set up the MLflow server is `mlflow server`. The syntax depends o
 
 `cmd.exe` on Windows
 ```bash
-mlflow_server\Scripts\activate
+conda activate mlflow_server
 mlflow server \
     --host 0.0.0.0 \
     --port 5000 \
@@ -18,7 +18,7 @@ mlflow server \
 ```
 `powershell` on Windows
 ```bash
-mlflow_server\Scripts\activate
+conda activate mlflow_server
 mlflow server \
     --host 0.0.0.0 \
     --port 5000 \
@@ -27,7 +27,7 @@ mlflow server \
 ```
 Linux
 ```bash
-. mlflow_server/bin/activate
+conda activate mlflow_server
 mlflow server \
     --host 0.0.0.0 \
     --port 5000 \
